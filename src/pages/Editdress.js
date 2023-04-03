@@ -4,6 +4,7 @@ import { editDress, getDressById } from "../actions/dressActions";
 import Error from "../components/Error";
 import Loading from "../components/Loading";
 import Success from "../components/Success";
+import { useParams } from 'react-router-dom'
 
 export default function Editdress({ match }) {
   const dispatch = useDispatch();
@@ -17,6 +18,7 @@ export default function Editdress({ match }) {
     const [img, setimg] = useState("");
     const [desc, setdesc] = useState("");
     const [category, setcategory] = useState("");
+    const params = useParams();
 
     const getdressbyidstate = useSelector((state)=>state.getDressByIdReducer);
     const {dress,error,loading} = getdressbyidstate;
@@ -25,7 +27,7 @@ export default function Editdress({ match }) {
 
   useEffect(() => {
     if (dress) {
-      if (dress._id === match.params.dressid) {
+      if (dress._id === params.dressid) {
                 settitle(dress.title);
                 setdesc(dress.desc);
                 setcategory(dress.category);
@@ -36,17 +38,17 @@ export default function Editdress({ match }) {
                 setXXLprice(dress.prices[0]["XXL"]);
                 setimg(dress.img);
       } else {
-        dispatch(getDressById(match.params.dressid));
+        dispatch(getDressById(params.dressid));
       }
     } else {
-      dispatch(getDressById(match.params.dressid));
+      dispatch(getDressById(params.dressid));
     }
   }, [dress, dispatch]);
 
   function formHandler(e) {
     e.preventDefault();
     const editeddress = {
-      _id: match.params.dressid,
+      _id: params.dressid,
       title,
           img,
           desc,

@@ -2,7 +2,9 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { logoutUser } from "../actions/userActions";
+import { LinkContainer } from "react-router-bootstrap";
 import fashion from "../photo/FashionIsta.png";
+import { Container, Image, NavbarBrand } from "react-bootstrap";
 
 export default function Navbar() {
   const cartstate = useSelector((state) => state.cartReducer);
@@ -13,6 +15,14 @@ export default function Navbar() {
 
   return (
     <>
+    {/* <Navbar>
+      <Container>
+        <Navbar.Brand>
+        <Image src={fashion}/>
+
+        </Navbar.Brand>
+      </Container>
+    </Navbar> */}
 
     <div>
       <nav className="navbar navbar-expand-lg shadow-lg p-3 mb-5 bg-white rounded">
@@ -105,3 +115,5 @@ export default function Navbar() {
     </>
   );
 }
+
+
