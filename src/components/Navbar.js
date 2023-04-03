@@ -101,6 +101,12 @@ export default function Navbar() {
                   Login
                 </a>
               </li>
+
+              <li className="nav-item mr-3" >
+                <a className="nav-link" href="/logout" style={{ color: "black" }}>
+                 Logout
+                </a>
+              </li>
               </>
             )}
             <li className="nav-item">
