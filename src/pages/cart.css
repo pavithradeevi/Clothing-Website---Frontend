@@ -1,0 +1,29 @@
+.flex-container {
+    display: flex !important;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.fa-plus{
+
+    color: green;
+  margin:8px;
+  cursor: pointer;
+  
+}
+.fa-minus{
+  color: red;
+  margin: 8px;
+  cursor: pointer;
+}
+.fa-trash{
+    color: red;
+    cursor: pointer;
+}
+.fa-trash:hover {
+    
+    font-size:20px;
+    
+}

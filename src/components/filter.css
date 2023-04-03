@@ -1,0 +1,14 @@
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.5rem;
+    color: white;
+    background: red;
+    border-radius: 1rem;
+    cursor: pointer;
+    padding: 0.4rem 1rem;
+}
+
+.container{
+    
+}
