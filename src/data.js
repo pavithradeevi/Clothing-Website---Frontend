@@ -1,216 +1,124 @@
-[
-    {
-    "title": "Kurta - Regular",
-    "size": [
-            "S",
-            "L",
-            "XL"
-        ],
-    "prices": [
-            {
-        "S": 499,
-        "L": 499,
-        "XL": 599
-            }
-        ],
-    "category": "Traditional",
-    "img": "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000012414350-Pink-PINK-1000012414350_02-2100.jpg",
-    "desc": "Fabric is Cotten.Its Printed Design,3/4 sleeve length",
-    },
-    {
-    "title": "Kurta-Striped",
-    "size": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ],
-    "prices": [
-            {
-        "S": 399,
-        "M": 399,
-        "L": 499,
-        "XL": 499,
-        "XXL": 599
-            }
-        ],
-    "category": "Traditional",
-    "img": "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000012010278-Multicolour-M-1000012010278_01-2100.jpg",
-    "desc": "pice up your wardrobe with this striped kurta in a knee-length profile. It is fashioned with a collared neck, three-quarter sleeves, a button-down front, and a curved hem. Complete the look by styling this kurta with palazzos and sandals",
-    },
-    {
-    "title": "Tops Dailywear",
-    "size": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ],
-    "prices": [
-            {
-        "S": 399,
-        "M": 399,
-        "L": 499,
-        "XL": 499,
-        "XXL": 599
-            }
-        ],
-    "category": "Western Outfits",
-    "desc": "Amp up your style with this tunic that is designed with floral prints. It features a tie-up neck, melon sleeves with tabs, and a curved hem. Style this tunic with jeans and flat sandals for a refined look",
-    "img": "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000012206452-Blue-LIGHTBLUE-1000012206452_01-2100.jpg",
-    },
-    {
-    "title": "Peasant Top",
-    "size": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ],
-    "prices": [
-            {
-        "S": 399,
-        "M": 399,
-        "L": 499,
-        "XL": 499,
-        "XXL": 599
-            }
-        ],
-    "category": "Western Outfits",
-    "img": "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000012205828-Beige-OFFWHITE-1000012205828_02-2100.jpg",
-    "desc": "ake a chic statement in this crop top with schiffli embroidery. It is designed with a round neck, raglan sleeves, and a smocked hem. Pair this top with ethnic pants and sneakers for an elegant look.",
-    },
-    {
-    "title": "A-line Kurta",
-    "size": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ],
-   "prices": [
-            {
-        "S": 599,
-        "M": 599,
-        "L": 699,
-        "XL": 699,
-        "XXL": 1199
-            }
-        ],
-    "category": "Traditional",
-    "img": "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000012392151-Beige-OFFWHITE-1000012392151_01-2100.jpg",
-    "desc": "Twirl in your ethnic wear with this printed a-line kurta which has a v-neck, three-quarter sleeves, and a calf-length construction. To make your outfit the highlight of any event team up this kurta with a pair of palazzos and heels.",
-    },
-    {
-    "title": "Printed PyjamaSets",
-    "size": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ],
-    "prices": [
-            {
-        "S": 299,
-        "M": 299,
-        "L": 399,
-        "XL": 399,
-        "XXL": 399
-            }
-        ],
-    "category": "Sleep wear",
-    "img": "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011588095-Grey-GREYMELANGE-1000011588095_01-2100.jpg",
-    "desc": "Style in comfort with this lounge set that comes with a printed top designed with a round neck and long sleeves and a pair of elasticated waistband pajamas.",
-    },
-    {
-    "title": "Night Dress Sets",
-    "size": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ],
-    "prices": [
-            {
-        "S": 399,
-        "M": 399,
-        "L": 499,
-        "XL": 499,
-        "XXL": 599
-            }
-        ],
-    "category": "Sleep wear",
-    "img": "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011639242-Blue-BLUE-1000011639242_02-2100.jpg",
-    "desc": "Fabric is Cotten.Its Printed Design,3/4 sleeve length",
-    },
-    {
-    "title": "Maxi",
-    "size": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ],
-    "prices": [
-            {
-        "S": 799,
-        "M": 799,
-        "L": 899,
-        "XL": 999,
-        "XXL": 999
-            }
-        ],
-    "category": "New Arrivals",
-    "img": "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000012206998-Yellow-YELLOW-1000012206998_01-2100.jpg",
-    "desc": "Breeze through the day in style. This maxi-length skirt is designed with floral and ethnic prints to exude an elegant look. It features a partially elasticated waist, tie-up with tassels, button closure, and an A-line profile. For a chic look, style this skirt with a contrasting top and heels.",
-    },
-    {
-    "title": "Kaftan Maxi",
-    "size": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ],
-    "prices": [
-            {
-        "S": 899,
-        "M": 899,
-        "L": 999,
-        "XL": 1199,
-        "XXL": 1199
-            }
-        ],
-    "category": "New Arrivals",
-    "img": "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011473651-Multicolour-M-1000011473651-31072022_01-2100.jpg",
-    "desc": "Breezy and chic, this maxi dress in a kaftan profile features V-neckline, three-quarter sleeves, cinched waist, and all-over floral prints",
-    },
-    {
-    "title": "Ear Rings Regular",
-    "size": [],
-    "prices": [
-            199
-        ],
-    "category": "Accessories",
-    "img": "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000010952613-1000010952612-13042022_01-2100.jpg",
-    "desc": "Accessorize your ensemble with the elegance of this chic pair of earrings, that comes with an embellished design and a drop silhouette. Style it with your gown to make a statement.",
-    },
-    {
-    "title": "Bags",
-    "size": [],
-    "prices": [
-            299
-        ],
-    "category": "Accessories",
-    "img": "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011607717-1000011607716-19082022_01-2100.jpg",
-    "desc": "Designed with a beautifully embroidered design, and zip closure, this pouch features a spacious compartment to keep all your things together, along with a stylish look and appeal to match your outfits.",
-    }
-]
+
+import React from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { logoutUser } from "../actions/userActions";
+import fashion from "../photo/FashionIsta.png";
+// import Container from 'react-bootstrap/Container';
+// import Nav from 'react-bootstrap/Nav';
+// import Navbar from 'react-bootstrap/Navbar';
+// import NavDropdown from 'react-bootstrap/NavDropdown';
+
+
+export default function Navbar() {
+  const cartstate = useSelector((state) => state.cartReducer);
+  const userstate = useSelector((state) => state.loginUserReducer);
+  const { currentUser } = userstate;
+
+  const dispatch = useDispatch();
+
+  return (
+    <>
+    
+
+    <div>
+      <nav className="navbar navbar-expand-lg shadow-lg p-3 mb-5 bg-white rounded">
+      <a className="navbar-brand" href="/">
+          <img className="logo" src ={fashion}></img>
+          </a>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon">
+            <i style={{ color: "black" }} className="fas fa-bars"></i>
+          </span>
+        </button>
+        
+        <div
+          className="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul className="navbar-nav ml-auto">
+            {currentUser ? ( 
+              <>
+             <li className="nav-item mr-3">
+             
+             <a className="nav-link" href="/admin" style={{ color: "black" }}>
+               Admin
+             </a>
+           </li>
+          
+              <div className="dropdown mt-2 ml-2">
+                <a
+                  style={{ color: "black" }}
+                  className="dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  {currentUser.name}
+                </a>
+                <div
+                  className="dropdown-menu"
+                  aria-labelledby="dropdownMenuButton"
+                >
+                  <a className="dropdown-item" href="/orders">
+                    Orders
+                  </a>
+                  <a
+                    className="dropdown-item"
+                    href="#"
+                    onClick={() => {
+                      dispatch(logoutUser());
+                    }}
+                  >
+                    <li>Logout</li>
+                  </a>
+                </div>
+              </div>
+              
+              </>
+            ) : (
+
+              <>
+              <li className="nav-item mr-3">
+              <a className="nav-link" href="/Home" style={{ color: "black" }}>
+                Home
+              </a>
+             
+            </li>
+
+              <li className="nav-item mr-3" >
+                <a className="nav-link" href="/login" style={{ color: "black" }}>
+                  Login
+                </a>
+              </li>
+
+              <li className="nav-item mr-3" >
+                <a className="nav-link" href="/logout" style={{ color: "black" }}>
+                 Logout
+                </a>
+              </li>
+              </>
+            )}
+            <li className="nav-item">
+              <a className="nav-link" href="/cart" style={{ color: "black" }}>
+                Cart {cartstate.cartItems.length}
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    </>
+  );
+}
+
+

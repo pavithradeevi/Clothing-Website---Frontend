@@ -16,12 +16,13 @@ import Userslist from './pages/Userslist';
 import Orderslist from './pages/Orderslist';
 import Dresseslist from './pages/Dresseslist';
 import Editdress from './pages/Editdress';
+import Navbars from './components/Navbar';
 
 
 function App() {
   return (
     <div className="App">
-    <Navbar/>
+    <Navbars/>
     <BrowserRouter>
     <Routes>
 

@@ -1,128 +1,91 @@
-
-import React from "react";
+import React from 'react'
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import fashion from "../photo/FashionIsta.png";
 import { useSelector, useDispatch } from "react-redux";
 import { logoutUser } from "../actions/userActions";
-import { LinkContainer } from "react-router-bootstrap";
-import fashion from "../photo/FashionIsta.png";
-import { Container, Image, NavbarBrand } from "react-bootstrap";
 
-export default function Navbar() {
+export default function Navbars() {
   const cartstate = useSelector((state) => state.cartReducer);
   const userstate = useSelector((state) => state.loginUserReducer);
   const { currentUser } = userstate;
 
   const dispatch = useDispatch();
-
   return (
-    <>
-    {/* <Navbar>
-      <Container>
-        <Navbar.Brand>
-        <Image src={fashion}/>
-
-        </Navbar.Brand>
-      </Container>
-    </Navbar> */}
-
     <div>
-      <nav className="navbar navbar-expand-lg shadow-lg p-3 mb-5 bg-white rounded">
-      <a className="navbar-brand" href="/">
-          <img className="logo" src ={fashion}></img>
-          </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon">
-            <i style={{ color: "black" }} className="fas fa-bars"></i>
-          </span>
-        </button>
+    <Navbar variant="dark" bg="dark" expand="lg">
+      <Container fluid>
+        <Navbar.Brand href="/">
+        <img className="logo" src ={fashion}></img>
+        </Navbar.Brand>
         
-        <div
-          className="collapse navbar-collapse justify-content-end"
-          id="navbarNav"
-        >
-          <ul className="navbar-nav ml-auto">
-            {currentUser ? ( 
-              <>
-             <li className="nav-item mr-3">
+
+        <Navbar.Toggle aria-controls="navbar-dark-example" />
+        <Navbar.Collapse id="navbar-dark-example">
+          <Nav>
+           <ul className="navbar-nav ml-auto">
+           {currentUser ? (
+            <>
+              
+          <li className="nav-item mr-3">
              
-             <a className="nav-link" href="/admin" style={{ color: "black" }}>
+             <a className="nav-link" href="/admin" style={{ color: "white" }}>
                Admin
              </a>
            </li>
-           {/* {currentUser.name} */}
-              <div className="dropdown mt-2 ml-2">
-                <a
-                  style={{ color: "black" }}
-                  className="dropdown-toggle"
-                  type="button"
-                  id="dropdownMenuButton"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  {currentUser.name}
-                </a>
-                <div
-                  className="dropdown-menu"
-                  aria-labelledby="dropdownMenuButton"
-                >
-                  <a className="dropdown-item" href="/orders">
-                    Orders
-                  </a>
-                  <a
-                    className="dropdown-item"
-                    href="#"
-                    onClick={() => {
-                      dispatch(logoutUser());
-                    }}
-                  >
-                    <li>Logout</li>
-                  </a>
-                </div>
-              </div>
-              
-              </>
-            ) : (
+           
 
-              <>
-              <li className="nav-item mr-3">
-              <a className="nav-link" href="/Home" style={{ color: "black" }}>
+            <NavDropdown
+              id="nav-dropdown-white-example"
+              title={currentUser.name}
+              menuVariant="white"
+            >
+              <NavDropdown.Item href="/orders">Orders</NavDropdown.Item>
+              <NavDropdown.Item href="#" onClick={() => {
+                      dispatch(logoutUser());
+                    }}>
+                <li>Logout</li>
+              </NavDropdown.Item>
+              
+            </NavDropdown>
+            </>
+           ):(
+            <>
+            <li className="nav-item mr-3">
+              <a className="nav-link" href="/Home" style={{ color: "white" }}>
                 Home
               </a>
              
             </li>
 
               <li className="nav-item mr-3" >
-                <a className="nav-link" href="/login" style={{ color: "black" }}>
+                <a className="nav-link" href="/login" style={{ color: "white" }}>
                   Login
                 </a>
               </li>
 
               <li className="nav-item mr-3" >
-                <a className="nav-link" href="/logout" style={{ color: "black" }}>
+                <a className="nav-link" href="/logout" style={{ color: "white" }}>
                  Logout
                 </a>
               </li>
-              </>
-            )}
-            <li className="nav-item">
-              <a className="nav-link" href="/cart" style={{ color: "black" }}>
-                Cart {cartstate.cartItems.length}
+
+            </>
+           )}
+      <li className="nav-item">
+              <a className="nav-link" href="/cart" style={{ color: "white" }}>
+                Cart 
               </a>
             </li>
-          </ul>
-        </div>
-      </nav>
+           </ul>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+
+    </Navbar>
+      
     </div>
-    </>
-  );
+  )
 }
-
-
