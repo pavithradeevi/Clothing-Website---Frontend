@@ -42,6 +42,7 @@ export default function Navbar() {
             <i style={{ color: "black" }} className="fas fa-bars"></i>
           </span>
         </button>
+        
         <div
           className="collapse navbar-collapse justify-content-end"
           id="navbarNav"
@@ -50,10 +51,12 @@ export default function Navbar() {
             {currentUser ? ( 
               <>
              <li className="nav-item mr-3">
+             
              <a className="nav-link" href="/admin" style={{ color: "black" }}>
                Admin
              </a>
            </li>
+           {/* {currentUser.name} */}
               <div className="dropdown mt-2 ml-2">
                 <a
                   style={{ color: "black" }}
