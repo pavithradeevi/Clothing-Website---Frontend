@@ -132,6 +132,10 @@
     margin-right: 2rem;
 }
 
+.about .content h2{
+  font-size: 70px;
+}
+
 .about .row .content{
     flex:1 1 45rem;
 }
@@ -310,7 +314,7 @@ section{
   }
   
   .footer{
-    background-color:#6c757d;
+    background-color:rgb(23, 22, 22);
     color: #0f1011;
   }
   .footer .box-container{

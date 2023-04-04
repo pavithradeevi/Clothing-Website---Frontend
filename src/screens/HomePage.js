@@ -38,7 +38,8 @@ export default function HomePage() {
 
           </div>
           <div class="content">
-            <h1>Building <img src="https://img.icons8.com/emoji/48/000000/heart-suit.png"/>a better you.</h1>
+          <h2>Building <img src="https://img.icons8.com/emoji/48/000000/heart-suit.png"/>a better you</h2>
+            {/* <h1>Building <img src="https://img.icons8.com/emoji/48/000000/heart-suit.png"/>a better you.</h1> */}
             <p>Anyone can beat you,but no one can beat your outfit<br/> as long as you wear ecstasy outfits.</p>
             <a href="/login" class="btn">Order Now</a>
           </div>
@@ -157,7 +158,7 @@ export default function HomePage() {
     <div class="box-container">
 
         <div class="box">
-            <h3>Shop locations</h3>
+            <h3>Shop Locations</h3>
             <a href="#">Bangalore</a>
             <a href="#">Chennai</a>
             <a href="#">Salem</a>
@@ -177,7 +178,8 @@ export default function HomePage() {
             <h3>Contact us</h3>
             
             <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=pavithradeevi@gmail.com">Admin-gmail</a>
-            <a href="https://github.com/pavithradeevi">Github</a>
+            <a href="https://www.linkedin.com/in/pavithra-v-148533263/">LinkedIn:Pavithra</a>
+            <a href="https://github.com/pavithradeevi">Github : Pavithra</a>
             <a href="https://en.wikipedia.org/wiki/Bangalore">Bangalore - 560094</a>
         </div>
 
